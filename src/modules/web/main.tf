@@ -1,4 +1,4 @@
-data "aws_availability_zones" "all" {}
+
 ### Creating EC2 instance
 resource "aws_instance" "web" {
   ami               = "lookup(var.amis,var.region)"
