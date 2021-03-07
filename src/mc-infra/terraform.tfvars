@@ -1,0 +1,9 @@
+product_code = "mc"
+env = "demo"
+aws_region = "us-east-1"
+aws_profile = "mc-demo"
+vpc_cidr = "172.20.0.0/16"
+route_table_cidr = "0.0.0.0/0"
+availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
+public_key_path = "/Users/kanaskaa/"
+key_name = "test.pem"
